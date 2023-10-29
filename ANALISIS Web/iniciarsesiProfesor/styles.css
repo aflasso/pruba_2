@@ -1,0 +1,83 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background: #FF6E1A;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    text-align: center;
+    width: 400px;
+    height: 370px;
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+    margin-bottom: 50px; /* Separación entre el título y el párrafo */
+    font-family: "Verdana", sans-serif
+
+}
+
+.subtext {
+    font-size: 14px;
+    color: #777;
+    margin: 0px;
+    margin-bottom: 30px; /* Separación entre el párrafo y el formulario */
+    
+}
+
+form {
+    margin-top: 50px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    background-color: #EFEFEF; /* Cambia el color de fondo aquí */
+    
+}
+
+button {
+    background-color: #646464;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    font-family: "Verdana", sans-serif
+    
+
+}
+
+button:hover {
+    background-color: #7f8284;
+    
+}
+
+#mensajeError{
+    color: red;
+    font-size: 10px;
+}
