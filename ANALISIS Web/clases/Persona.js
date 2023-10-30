@@ -1,12 +1,13 @@
 class Estudiante{
-    constructor(nombres, apellidos, codigo, correo, telefono, programa, semestre){
+    constructor(nombres, apellidos, codigo, correo, telefono, programa, semestres, semestreActual){
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.codigo = codigo;
         this.correo = correo;
         this.telefono = telefono;
         this.programa = programa;
-        this.semestre = semestre;
+        this.semestres = semestres;
+        this.semestreActual = semestreActual
         this.usuario = this.crearUsuario(nombres, apellidos);
         this.contrasena = codigo;
         this.listaClases = [];
@@ -35,11 +36,5 @@ class Estudiante{
     }
 
 }
-
-juan = new Estudiante("Juan David", "Yepez Velez", "30000089783", "jdyepezv@correo.usbcali.edu.co", "3007166887", "Ingenieria de sistemas", 3);
-mar = new Estudiante("Maria Del Mar", "Mina Yepez", "30000089613", "pene@cuca.com", "164664668", "Arquitortura", 4);
-
-console.log(juan.usuario);
-console.log(mar.usuario);
 
 export default Estudiante;
