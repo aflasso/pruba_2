@@ -10,6 +10,7 @@ class Materia {
         this.horario = horario
         this.ubicacion = ubicacion
         this.valoracion = new Valoracion()
+        this.banner = "../img/banner_materia.jpg"
     }
 }
 
