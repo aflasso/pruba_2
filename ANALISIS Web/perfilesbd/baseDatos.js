@@ -7,6 +7,20 @@ class BD {
     constructor(){
         this.usuarios = []
     }
+
+    buscarUsuarioPorUsuario(usuarioFiltro){
+
+        let usuarioEncontrado = null
+
+        this.usuarios.forEach((u) => {
+            if (u.usuario == usuarioFiltro) {
+                usuarioEncontrado = u
+                return u
+            }
+        });
+
+        return usuarioEncontrado
+    }
 }
 
 let materias_semestre1_ing_siste = [new Materia("Precalculo", "sdvxzcvsdf", "javier", 3, new HorarioClase("Martes", "09:00", 2), "Cedro 312"),
