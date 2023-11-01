@@ -1,7 +1,8 @@
+import HorarioClase from "./HorarioClase.js";
 import Valoracion from "./Valoracion.js";
 
 class Materia {
-    constructor(nombre, codigo,profesorAsignado, cantCreditos, horario, ubicacion)
+    constructor(nombre, codigo, profesorAsignado, cantCreditos, horario, ubicacion)
     {
         this.nombre = nombre
         this.codigo = codigo
@@ -9,7 +10,7 @@ class Materia {
         this.cantCreditos = cantCreditos
         this.horario = horario
         this.ubicacion = ubicacion
-        this.valoracion = new Valoracion()
+        this.valoracion = []
         this.banner = "../img/banner_materia.jpg"
     }
 }

@@ -5,11 +5,10 @@ class HorarioClase {
       this.horaInicio = horaInicio;
       this.duracion = duracion;
     }
-  
-    obtenerHorario() {
-      return `${this.diaSemana} a las ${this.horaInicio}, duración: ${this.duracion} horas`;
-    }
-  }
+
+}
 
 export default HorarioClase
+
+
   

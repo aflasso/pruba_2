@@ -1,16 +1,12 @@
-import Comentario from "./comentario.js"
-
 class Valoracion{
 
-    constructor() {
-        this.comentarios = []
+    constructor(asunto, comentario, puntuacion) {
+        
+        this.asunto = asunto
+        this.comentario = comentario
+        this.puntuacion = puntuacion
     }
 
-    agregarComentario(asunto, comentarioEnviado) {
-        
-        let comentario = Comentario(asunto, comentarioEnviado)
-        this.comentarios.push(comentario)
-    }
 }
 
 export default Valoracion

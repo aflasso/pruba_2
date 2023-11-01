@@ -145,49 +145,66 @@ footer {
 
 /* Estilos del horario*/
 
-.tituloHorario{
+.tituloPerfil{
     text-align: center;
 }
 
-.horario {
+.contenedorPerfil{
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 75px;
+    margin-left: 10%;
+    width: 80%;
+    height: 450px;
+    background-color: #ececec;
+    border-radius: 38px;
 }
 
-.Lunes, .Martes, .Miercoles, .Jueves, .Viernes, .Sabado {
-    flex: 1;
-    border: 3px solid #ccc;
-    padding: 10px;
-    text-align: center;
+.contenedorInformacion{
+    margin-left: 5%;
+    font-size: 30px;
+    width: 57%;
+    height: 400px;
+    border-radius: 38px;
+    display: grid;
+    place-items: start;
 }
 
-.claseDia {
-    margin: 5px;
-    padding: 5px;
-    background-color: #f0f0f0;
-    border: 1px solid #999;
+.textoDiv{
+    margin-top: 5%;
+    font-size: 30px;
+    height: 400px;
+    border-radius: 38px;
+    display: grid;
+    place-items: start;
 }
 
-.contenedorBotonesMaterias{
-    width: 400px;
-    margin-left: 35%;
+.contenedorInformacion .imagen{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contenedorImagen{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 400px;
+    border-radius: 38px;
 }
 
-.botones{
-    background-color: #FF6E1A;
-    color: #fff;
-    height: 45px;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
+.imagenPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.botones:hover{
-    background-color: #ff6e1a96;
+.imagenPerfil .fotoPerfil{
+    width: 60%;
+    margin: 15px;
+}
+
+.imagenPerfil .editar{
+    height: 35px;
+    width: 35px;
+    margin: 15px;
 }

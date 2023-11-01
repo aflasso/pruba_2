@@ -96,8 +96,77 @@ header {
 }
 
 .contenido-principal {
+    display: flex;
     min-height: 70%;
-} 
+    height: 70%;
+
+}
+
+.contenedor-left {
+    width: 50%;
+    height: 100%;
+
+}
+
+.contenedor-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-nombre {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nombre-materia{
+    display: inline;
+}
+
+.comentarios {
+    width: 95%;
+    padding: 20px;
+    background-color: #ccc;
+    margin-left: 20px;
+    height: 85%;
+    overflow-y: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.comentarios div {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.comentario-asunto {
+    font-weight: bold;
+}
+
+.button-list {
+    list-style: none;
+}
+
+.button-list li {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px 0 40px 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: default;
+}
+
 
 /* Estilos del footer */
 footer {
